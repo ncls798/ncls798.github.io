@@ -1,0 +1,26 @@
+---
+layout: default
+title: S &amp; E | Blog
+---
+
+<section id="feature-five">
+    <div class="container">
+        <div class="row">
+            <div class="feature-content">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <ul class="posts">
+
+					  {% for post in site.posts %}
+					    <li>
+					    	<h2>{{ post.date | date_to_string }}</h2> &raquo; 
+					    	<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+					    </li>
+					  {% endfor %}
+					    
+					</ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
