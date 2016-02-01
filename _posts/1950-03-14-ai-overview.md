@@ -27,5 +27,7 @@ date: 1950-03-14
 	[Artificial Intelligence - Strong and Weak](http://www.i-programmer.info/babbages-bag/297-artificial-intelligence.html)
 
 	[A Holistic Approach to AI](https://www.ocf.berkeley.edu/~arihuang/academic/research/strongai3.html)
+	
+	[Jekyll](http://jekyllrb.com)
 
 
