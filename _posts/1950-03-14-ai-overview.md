@@ -19,7 +19,7 @@ In the meantime, there is no general measure of "success" in the field of strong
 
 Hence, the time has come to find out some alternatives. One of the main characters of human intelligence is learning, which is the missing part of symbolic program that can't learn by itself. Very early on in the history of AI, people looked specifically at the ability to learn and tried to build learning machines. The theory was that if you could build a machine that could learn a little more than you told it, you could “bootstrap” your way to a complete intelligent machine equal to or better than a human. After all this is how natural selection worked to create organisms that could learn more and more. This escorts us into the path of machine learning, a branch of AI that studies how to gives computers the ability to learn without being explicitly programmed (topic for next post). To wrap up for this topic, AI is still in its infancy and true intelligence is still a long way over the horizon.
 
-![robot](https://github.com/ncls798/ncls798.github.io/img/robot.jpg)
+![robot](/img/robot.jpg)
 
 Sources
 
