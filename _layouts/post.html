@@ -11,9 +11,9 @@ layout: default
                     <h5>{{ page.date | date_to_string }}</h5>
                     <h2>{{ page.title }}</h2>
                     <br />
-                    {% for post in site.posts %}
-                    {{ post.content }}
-                    {% endfor %}
+                    
+                    {{ content }}
+                    
                 </div>
             </div>
         </div>
