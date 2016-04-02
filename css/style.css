@@ -66,23 +66,42 @@ img {
     margin-bottom: -2rem;
 }
 
-.feature-dark {
+.feature-dblue {
     background: #1A3346;
-    color: white;
+    color: #FFFFFF;
 }
 
-.feature-dark h2 {
-    color: white;
+.feature-dblue h2 {
+    color: #FFFFFF;
     padding-top: 3rem;
 }
 
 .feature-alt {
-    background: #f0f0f0;
+    background: #464648;
     padding-top: 3rem;
 }
 
+.feature-alt h2 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.feature-black {
+    background: #212D33;
+    padding: 3rem 0;
+}
+
+.feature-black h2 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.feature-black .list-group h4 {
+    color: #9F00FF;
+}
+
 #feature-five {
-    padding-top: 11.5rem;
+    padding-top: 4rem;
 }
 
 #feature-five img {
@@ -106,6 +125,30 @@ img {
   font-size: 85%;
 }
 
+.nav-tabs.centered > li, .nav-pills.centered > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+    
+}
+
+#pro a {
+    color: #fff;
+}
+
+#pro p {
+    color: #000;
+}
+
+#pro a.active {
+    color: purple;
+}
+
+.nav-tabs.centered, .nav-pills.centered {
+    text-align:center;
+}
+
 #main-footer {
     background: #262F36;
     color: white;
@@ -121,68 +164,6 @@ img {
     font-size: 1.1rem;
 }
 
-/* Blog */
-
-ul.posts li { 
-    list-style: none; 
-}
-
-a { 
-    text-decoration: none; color: #2308B1; 
-}
-
-a:hover { 
-    text-decoration: underline; 
-}
-
-/* blog galaxy */
-
-@-webkit-keyframes STAR-MOVE {
-    from {
-        left: 0;
-        top: 0;
-    }
-    to { 
-        left: -10000px;
-        top: -2000px;
-    }
-}
-
-#background {
-    background: black url(../img/background.png) repeat 5% 5%;
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    z-index: 100;
-    
-    -webkit-animation-name: STAR-MOVE;
-    -webkit-animation-duration: 220s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-}
-
-#midground {
-    background: url(../img/midground.png) repeat 20% 20%;
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    z-index: 200;
-    
-    -webkit-animation-name: STAR-MOVE;
-    -webkit-animation-duration: 150s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-}
-
-#foreground {
-    background: url(../img/foreground.png) repeat 35% 35%;
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    z-index: 300;
-    
-    -webkit-animation-name: STAR-MOVE;
-    -webkit-animation-duration: 100s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-}
 
 /* Media Queries */
 
